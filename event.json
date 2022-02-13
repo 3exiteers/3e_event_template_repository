@@ -1,0 +1,90 @@
+{
+    "name": "eee-raetselhaus-de",
+    "version": 1.0,
+    "active": true,
+    "tags": [
+        "exclusive",
+        "game",
+        "visual",
+        "numeric",
+        "logical"
+    ],
+    "level": "2",
+    "license": "MIT",
+    "banner": "event.png",
+    "visible": true,
+    "featured": "",
+    "title": "<TITLE>",
+    "description": "<DESCRIPTION>",
+    "registration": {
+        "header": "<REGISTRATION_HEADER>",
+        "body": "<REGISTRATION_CONTENT>"
+    },
+    "from": "2020-12-31 00:00:00",
+    "to": "2099-12-31 00:00:00",
+    "story": "<STORY_ID>",
+    "survey": "<SURVEY_ID>",
+    "template": "<TEMPLATE_ID>",
+    "quickcode": "<QUICKCODE_3_ALPHAS",
+    "creator": {
+        "email": "<CREATOR_EMAIL>",
+        "request": [
+            "<EMAIL1_REQUEST>",
+            "<EMAIL2_REQUEST>"
+        ],
+        "feedback": [
+            "<EMAIL1_FEEDBACK>",
+            "<EMAIL2_FEEDBACK>"
+        ],
+        "team": [
+            "<CREATOR1_ACCOUNT>",
+            "<CREATOR2_ACCOUNT>"
+        ]
+    },
+    "variables": {
+        "<VARIABLE1_NAME>": "<VARIABLE1_VALUE>",
+        "<VARIABLE2_NAME>": "<VARIABLE2_VALUE>"
+    },
+    "team": {
+        "<TEAM1_TEAMCODE_8_ALPHANUMERICS>": {
+            "name": "<TEAM1_NAME>",
+            "active": true,
+            "from": "2021-01-01 00:00:00.000000",
+            "to": "2099-12-31 00:00:00.000000",
+            "maxplayer": 0,
+            "permissions": {
+                "storyflow": true,
+                "editor": true,
+                "gitimport": false,
+                "teamreset": true,
+                "timerreset": true,
+                "eventreset": true
+            },
+            "variables": {
+                "<VARIABLE1_NAME>": "<VARIABLE1_VALUE",
+                "<VARIABLE3_NAME>": "<VARIABLE3_VALUE"
+            },
+            "deletable": false
+        },
+        "<TEAM2_TEAMCODE_8_ALPHANUMERICS>": {
+            "name": "<TEAM2_NAME>",
+            "active": true,
+            "from": "2021-01-01 00:00:00.000000",
+            "to": "2099-12-31 00:00:00.000000",
+            "maxplayer": 0,
+            "permissions": {
+                "storyflow": true,
+                "editor": true,
+                "gitimport": false,
+                "teamreset": true,
+                "timerreset": true,
+                "eventreset": true
+            },
+            "variables": {
+                "<VARIABLE1_NAME>": "<VARIABLE1_VALUE",
+                "<VARIABLE3_NAME>": "<VARIABLE3_VALUE"
+            },
+            "deletable": false
+        }
+    }
+}
